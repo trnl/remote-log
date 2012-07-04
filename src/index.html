@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+        
+        <link href="static/css/style.css?rand={{random}}" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+      		google.load('visualization', '1.0', {'packages':['corechart']});
+      	</script>
+        
+        <script src="static/js/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="/_ah/channel/jsapi"></script>
+        <script src="static/js/underscore-min.js"></script>
+        
+        <script src="static/js/main.js?rand={{random}}"></script>
+        <script src="static/js/item.js?rand={{random}}"></script>
+        <script src="static/js/container.js?rand={{random}}"></script>
+        
+        <script src="static/js/log.js?rand={{random}}"></script>
+        <script src="static/js/instance.js?rand={{random}}"></script>
+        <title>Remote log</title>
+    </head>
+    <body>
+    
+      <div id="container">
+	      <div id="static_area"></div>
+	      <div id="content"></div>
+      </div>
+      <script>
+      Application.initPageByAddress()
+      </script>
+    </body>
+</html>

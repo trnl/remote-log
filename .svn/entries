@@ -1,0 +1,70 @@
+10
+
+dir
+55096
+https://code.intellectsoft.org/ltool
+https://code.intellectsoft.org
+
+
+
+2012-01-17T07:02:56.043463Z
+54986
+alexxoid
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e40f8d76-2543-43a7-8fa7-cbc145e80fcb
+
+.project
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+.pydevproject
+file
+0
+
+
+add
+
+deploy.py
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+src
+dir
+
+
+
+add
+
